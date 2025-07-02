@@ -1,10 +1,10 @@
 # Site settings
 title: "Portfólio de Analista de Dados"
 description: "Demonstrando habilidades em Python, análise e visualização de dados através de projetos práticos com dados brasileiros"
-author: "Analista de Dados"
-email: "seu.email@exemplo.com"
+author: "Leonardo Sales"
+email: "Salesleonardo777@gmail.com"
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://seu-usuario.github.io" # the base hostname & protocol for your site
+url: "https://salesleo77.github.io" # the base hostname & protocol for your site
 
 # Build settings
 theme: minima
@@ -16,12 +16,11 @@ plugins:
   - jekyll-seo-tag
 
 # GitHub settings
-repository: "seu-usuario/portfolio-analista-dados"
-github_username: "seu-usuario"
+repository: "salesleo77/portfolio-analista-dados"
+github_username: "SalesLeo77"
 
 # Social media
-linkedin_username: "seu-linkedin"
-twitter_username: "seu-twitter"
+linkedin_username: "leonardoosales"
 
 # Navigation
 header_pages:
@@ -40,9 +39,8 @@ timezone: America/Sao_Paulo
 social:
   name: "Seu Nome Completo"
   links:
-    - "https://github.com/seu-usuario"
-    - "https://linkedin.com/in/seu-linkedin"
-    - "https://twitter.com/seu-twitter"
+    - "https://github.com/salesleo77"
+    - "https://linkedin.com/in/leonardoosales"
 
 # Minima theme settings
 minima:
