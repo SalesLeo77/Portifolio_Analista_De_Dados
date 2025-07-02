@@ -1,0 +1,114 @@
+# Site settings
+title: "Portfólio de Analista de Dados"
+description: "Demonstrando habilidades em Python, análise e visualização de dados através de projetos práticos com dados brasileiros"
+author: "Analista de Dados"
+email: "seu.email@exemplo.com"
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://seu-usuario.github.io" # the base hostname & protocol for your site
+
+# Build settings
+theme: minima
+markdown: kramdown
+highlighter: rouge
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+# GitHub settings
+repository: "seu-usuario/portfolio-analista-dados"
+github_username: "seu-usuario"
+
+# Social media
+linkedin_username: "seu-linkedin"
+twitter_username: "seu-twitter"
+
+# Navigation
+header_pages:
+  - data-cleaning/README.md
+  - data-visualization/README.md
+  - data-pipeline/README.md
+
+# SEO settings
+lang: pt-BR
+timezone: America/Sao_Paulo
+
+# Google Analytics (opcional - substitua pelo seu ID)
+# google_analytics: "G-XXXXXXXXXX"
+
+# Social media preview
+social:
+  name: "Seu Nome Completo"
+  links:
+    - "https://github.com/seu-usuario"
+    - "https://linkedin.com/in/seu-linkedin"
+    - "https://twitter.com/seu-twitter"
+
+# Minima theme settings
+minima:
+  skin: classic
+  social_links:
+    github: seu-usuario
+    linkedin: seu-linkedin
+    twitter: seu-twitter
+
+# Collections
+collections:
+  projects:
+    output: true
+    permalink: /:collection/:name/
+
+# Defaults
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+      author: "Analista de Dados"
+  - scope:
+      path: ""
+      type: "projects"
+    values:
+      layout: "page"
+
+# Exclude from processing
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+  - "*.py"
+  - "*.csv"
+  - .gitignore
+  - README_original.md
+
+# Include
+include:
+  - _pages
+
+# Sass
+sass:
+  sass_dir: _sass
+  style: compressed
+
+# Pagination
+paginate: 5
+paginate_path: "/page:num/"
+
+# Comments (opcional)
+# disqus:
+#   shortname: seu-disqus-shortname
+
+# Search (opcional)
+# search: true
+
+# Reading time (opcional)
+# read_time: true
+
+# Related posts (opcional)
+# show_related: true
+
